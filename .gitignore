@@ -1,1 +1,15 @@
 node_modules
+
+# Next.js build output and local caches
+.next/
+.next-dev.log
+out/
+
+# Local env files
+.env*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
