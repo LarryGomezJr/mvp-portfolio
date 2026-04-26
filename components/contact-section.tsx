@@ -168,7 +168,11 @@ export function ContactSection() {
                   asChild
                   className="h-12 rounded-full bg-teal-700 px-7 text-base font-bold text-white hover:bg-teal-800"
                 >
-                  <a href="mailto:larryggomezjr@gmail.com">
+                  <a
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=larryggomezjr%40gmail.com&su=Full-time%20Opportunity%20for%20Larry%20Gomez"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Email Me
                     <Mail className="ml-2 h-4 w-4" aria-hidden />
                   </a>
