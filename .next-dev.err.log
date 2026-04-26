@@ -1,0 +1,190 @@
+⨯ The requested resource "https://cdn.simpleicons.org/nextdotjs/0F172A" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/stripe/635BFF" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/nodedotjs/16A34A" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/tailwindcss/14B8A6" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/postman/FF6C37" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ upstream image response failed for https://cdn.simpleicons.org/microsoftsqlserver/CC2927 404
+⨯ The requested resource "https://cdn.simpleicons.org/railway/0B0D0E" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/reactquery/FF4154" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/github/181717" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/mysql/4479A1" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ upstream image response failed for https://cdn.simpleicons.org/openai/053B3E 404
+⨯ The requested resource "https://cdn.simpleicons.org/react/14B8A6" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+[browser] Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+          <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+                  <SegmentViewNode type="page" pagePath="page.tsx">
+                    <SegmentTrieNode>
+                    <Home>
+                      <main className="min-h-scre...">
+                        <FloatingNav>
+                          <TooltipProvider delayDuration={120}>
+                            <TooltipProviderProvider scope={undefined} isOpenDelayed={true} delayDuration={120} ...>
+                              <nav aria-label="Primary na..." className="fixed inse...">
+                                <div className="flex items...">
+-                                 <a
+-                                   href="#home"
+-                                   aria-label="Home"
+-                                   className="inline-flex items-center justify-center whitespace-nowrap text-sm font-..."
+-                                   data-state="closed"
+-                                 >
+-                                 <a
+-                                   href="#about"
+-                                   aria-label="About"
+-                                   className="inline-flex items-center justify-center whitespace-nowrap text-sm font-..."
+-                                   data-state="closed"
+-                                 >
+-                                 <a
+-                                   href="#projects"
+-                                   aria-label="Projects"
+-                                   className="inline-flex items-center justify-center whitespace-nowrap text-sm font-..."
+-                                   data-state="closed"
+-                                 >
+-                                 <a
+-                                   href="#testimonies"
+-                                   aria-label="Testimonies"
+-                                   className="inline-flex items-center justify-center whitespace-nowrap text-sm font-..."
+-                                   data-state="closed"
+-                                 >
+-                                 <a
+-                                   href="#contact"
+-                                   aria-label="Contact"
+-                                   className="inline-flex items-center justify-center whitespace-nowrap text-sm font-..."
+-                                   data-state="closed"
+-                                 >
+-                                 <a
+-                                   href="#techstack"
+-                                   aria-label="Techstack"
+-                                   className="inline-flex items-center justify-center whitespace-nowrap text-sm font-..."
+-                                   data-state="closed"
+-                                 >
+                        ...
+                  ...
+                ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at div (<anonymous>)
+    at FloatingNav (components\floating-nav.tsx:35:9)
+    at Home (app\page.tsx:10:7)
+  33 |         className="fixed inset-x-0 bottom-4 z-50 mx-auto flex w-fit max-w-[calc(100%-1.5re...
+  34 |       >
+> 35 |         <div className="flex items-center gap-1 sm:gap-1.5">
+     |         ^
+  36 |           {navItems.map((item) => {
+  37 |             const Icon = item.icon;
+  38 |
+⨯ upstream image response failed for https://cdn.simpleicons.org/microsoftsqlserver/CC2927 404
+⨯ The requested resource "https://cdn.simpleicons.org/postman/FF6C37" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/reactquery/FF4154" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/railway/0B0D0E" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/nextdotjs/0F172A" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/github/181717" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/nodedotjs/16A34A" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/stripe/635BFF" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/tailwindcss/14B8A6" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/mysql/4479A1" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/nodedotjs/16A34A" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/github/181717" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/tailwindcss/14B8A6" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/react/14B8A6" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/stripe/635BFF" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/nextdotjs/0F172A" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ upstream image response failed for https://cdn.simpleicons.org/openai/053B3E 404
+⨯ The requested resource "https://cdn.simpleicons.org/nodedotjs/16A34A" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/postman/FF6C37" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/tailwindcss/14B8A6" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/reactquery/FF4154" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/stripe/635BFF" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ upstream image response failed for https://cdn.simpleicons.org/openai/053B3E 404
+⨯ The requested resource "https://cdn.simpleicons.org/railway/0B0D0E" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/postman/FF6C37" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/reactquery/FF4154" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/mysql/4479A1" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ upstream image response failed for https://cdn.simpleicons.org/microsoftsqlserver/CC2927 404
+⨯ The requested resource "https://cdn.simpleicons.org/railway/0B0D0E" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ upstream image response failed for https://cdn.simpleicons.org/microsoftsqlserver/CC2927 404
+⨯ The requested resource "https://cdn.simpleicons.org/github/181717" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/nextdotjs/0F172A" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/react/14B8A6" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/reactquery/FF4154" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ upstream image response failed for https://cdn.simpleicons.org/microsoftsqlserver/CC2927 404
+⨯ The requested resource "https://cdn.simpleicons.org/mysql/4479A1" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/github/181717" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/railway/0B0D0E" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/postman/FF6C37" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/nodedotjs/16A34A" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/tailwindcss/14B8A6" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/stripe/635BFF" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ upstream image response failed for https://cdn.simpleicons.org/openai/053B3E 404
+⨯ The requested resource "https://cdn.simpleicons.org/mysql/4479A1" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/nodedotjs/16A34A" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/github/181717" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/tailwindcss/14B8A6" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/react/14B8A6" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/stripe/635BFF" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/nextdotjs/0F172A" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ upstream image response failed for https://cdn.simpleicons.org/openai/053B3E 404
+⨯ The requested resource "https://cdn.simpleicons.org/nodedotjs/16A34A" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/postman/FF6C37" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/tailwindcss/14B8A6" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/stripe/635BFF" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ upstream image response failed for https://cdn.simpleicons.org/openai/053B3E 404
+⨯ The requested resource "https://cdn.simpleicons.org/postman/FF6C37" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/reactquery/FF4154" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/railway/0B0D0E" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ upstream image response failed for https://cdn.simpleicons.org/microsoftsqlserver/CC2927 404
+⨯ The requested resource "https://cdn.simpleicons.org/mysql/4479A1" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⨯ The requested resource "https://cdn.simpleicons.org/github/181717" has type "image/svg+xml" but dangerouslyAllowSVG is disabled. Consider adding the "unoptimized" property to the <Image>.
+⚠ Found a change in next.config.mjs. Restarting the server to apply the changes...
+[browser] Image with src "http://localhost:3000/mysql.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/react.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/nextjs.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/node.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/tailwind.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/stripe.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/OpenAI-Codex.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/postman.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/rest.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/railway.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/sql-server.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/react.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/node.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/tailwind.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/OpenAI-Codex.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/react.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/node.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/tailwind.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/OpenAI-Codex.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/react.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/node.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/tailwind.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/OpenAI-Codex.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). 
