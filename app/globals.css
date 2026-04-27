@@ -70,9 +70,13 @@
   background-image:
     linear-gradient(to right, rgba(13, 148, 136, 0.08) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(13, 148, 136, 0.08) 1px, transparent 1px),
-    linear-gradient(180deg, #ffffff 0%, #ecfdf5 52%, #ffffff 100%);
-  background-position: center;
-  background-size: 46px 46px, 46px 46px, 100% 100%;
+    radial-gradient(circle at top left, rgba(20, 184, 166, 0.14), transparent 62%),
+    radial-gradient(circle at top right, rgba(13, 148, 136, 0.12), transparent 62%),
+    radial-gradient(circle at bottom left, rgba(45, 212, 191, 0.1), transparent 62%),
+    radial-gradient(circle at bottom right, rgba(13, 148, 136, 0.12), transparent 62%);
+  background-position: center, center, top left, top right, bottom left, bottom right;
+  background-repeat: repeat, repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 46px 46px, 46px 46px, 58% 58%, 58% 58%, 58% 58%, 58% 58%;
 }
 
 .dark .portfolio-grid-background {
@@ -80,9 +84,13 @@
   background-image:
     linear-gradient(to right, rgba(94, 234, 212, 0.08) 1px, transparent 1px),
     linear-gradient(to bottom, rgba(94, 234, 212, 0.08) 1px, transparent 1px),
-    radial-gradient(circle at 50% 0%, rgba(20, 184, 166, 0.16), transparent 35%),
-    linear-gradient(180deg, #031b1d 0%, #052d2d 52%, #021112 100%);
-  background-size: 46px 46px, 46px 46px, 100% 100%, 100% 100%;
+    radial-gradient(circle at top left, rgba(20, 184, 166, 0.2), transparent 62%),
+    radial-gradient(circle at top right, rgba(45, 212, 191, 0.18), transparent 62%),
+    radial-gradient(circle at bottom left, rgba(20, 184, 166, 0.16), transparent 62%),
+    radial-gradient(circle at bottom right, rgba(45, 212, 191, 0.18), transparent 62%);
+  background-position: center, center, top left, top right, bottom left, bottom right;
+  background-repeat: repeat, repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 46px 46px, 46px 46px, 58% 58%, 58% 58%, 58% 58%, 58% 58%;
 }
 
 .dark .text-tealInk {

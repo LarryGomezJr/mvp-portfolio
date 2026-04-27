@@ -15,7 +15,6 @@ import {
   UserRound
 } from "lucide-react";
 
-import { ThemeToggle } from "@/components/theme-toggle";
 import { cn } from "@/lib/utils";
 
 const navItems = [
@@ -60,7 +59,7 @@ export function FloatingNav() {
             className="ml-auto mt-16 w-[min(calc(100vw-2rem),22rem)] overflow-hidden rounded-2xl border border-teal-200/80 bg-[rgba(255,255,255,0.95)] shadow-[0_24px_70px_rgba(13,148,136,0.22)] backdrop-blur-xl dark:border-teal-200/80 dark:bg-[rgba(255,255,255,0.95)]"
             onClick={(event) => event.stopPropagation()}
           >
-            <div className="flex items-center justify-between border-b border-teal-100 px-4 py-3">
+            <div className="flex items-center border-b border-teal-100 px-4 py-3">
               <Link
                 href="/"
                 aria-label="DevL home"
@@ -70,7 +69,6 @@ export function FloatingNav() {
                 <span className="h-2.5 w-2.5 rounded-full bg-teal-600 shadow-[0_0_18px_rgba(13,148,136,0.7)]" />
                 DevL
               </Link>
-              <ThemeToggle />
             </div>
 
             <ul className="space-y-1 p-2">
@@ -164,8 +162,7 @@ export function FloatingNav() {
             })}
           </ul>
 
-          <div className="flex shrink-0 items-center gap-2">
-            <ThemeToggle />
+          <div className="flex shrink-0 items-center">
             <Link
               href="/contact"
               aria-label="Start a conversation"

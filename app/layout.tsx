@@ -11,12 +11,8 @@ export const metadata: Metadata = {
 const themeInitializer = `
   (() => {
     try {
-      const storedTheme = localStorage.getItem("portfolio-theme");
-      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-      if (storedTheme === "dark" || (!storedTheme && prefersDark)) {
-        document.documentElement.classList.add("dark");
-      }
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("portfolio-theme", "light");
     } catch (_) {}
   })();
 `;

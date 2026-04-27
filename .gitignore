@@ -3,6 +3,7 @@ node_modules
 # Next.js build output and local caches
 .next/
 .next-dev.log
+.next-dev.err.log
 out/
 
 # Local env files

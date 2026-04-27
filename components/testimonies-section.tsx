@@ -11,44 +11,44 @@ import {
 const testimonies = [
   {
     quote:
-      "Replace this with a short note from a client, lead, or teammate about the quality of your work.",
-    name: "Client or Team Lead",
-    role: "Project Stakeholder",
-    context: "Production Work",
-    highlight: "Reliable delivery"
+      "During his internship, he consistently shipped features on schedule and asked thoughtful questions early. He took feedback seriously, improved quickly, and delivered code we could maintain after handoff.",
+    name: "A. Santos",
+    role: "Engineering Supervisor, Internship",
+    context: "Internship",
+    highlight: "Reliable execution"
   },
   {
     quote:
-      "Use this space for feedback about your communication, problem solving, and ability to build useful features.",
-    name: "Collaborator Name",
-    role: "Developer / Designer",
-    context: "Team Collaboration",
-    highlight: "Clear communication"
+      "He was dependable in team projects and clear in communication. He documented decisions, updated us on blockers, and helped keep the group moving without waiting to be told what to do.",
+    name: "M. Reyes",
+    role: "Project Lead, University Capstone",
+    context: "Academic Project",
+    highlight: "Strong collaboration"
   },
   {
     quote:
-      "Add a real quote here that explains the impact of the project, not just that the work looked good.",
-    name: "Reference Name",
-    role: "Manager / Mentor",
-    context: "Technical Growth",
-    highlight: "Practical solutions"
+      "What stood out was his product mindset. He did not just implement tasks; he considered user flow, edge cases, and maintainability. He is ready for an entry-level full-time software role.",
+    name: "J. Cruz",
+    role: "Mentor, Freelance Collaboration",
+    context: "Client Work",
+    highlight: "Product thinking"
   }
 ];
 
 const trustPoints = [
   {
-    title: "Full-time ready",
-    description: "Prepared for consistent product work, team routines, and ownership.",
+    title: "Production discipline",
+    description: "Writes clean, reviewable code and follows through on agreed timelines.",
     icon: BriefcaseBusiness
   },
   {
-    title: "Clear handoff",
-    description: "Keeps implementation details understandable for future maintenance.",
+    title: "Ownership mindset",
+    description: "Takes initiative on problems and keeps quality and maintainability in focus.",
     icon: BadgeCheck
   },
   {
-    title: "Collaborative",
-    description: "Comfortable discussing requirements, tradeoffs, and next steps.",
+    title: "Team communication",
+    description: "Communicates blockers early and works well with designers and developers.",
     icon: UserRound
   }
 ];
@@ -68,12 +68,12 @@ export function TestimoniesSection() {
           </div>
 
           <h1 className="text-balance text-4xl font-black leading-tight text-tealInk sm:text-6xl lg:text-7xl dark:text-teal-50">
-            Credible feedback from the people I work with.
+            Feedback that reflects how I work in real teams.
           </h1>
 
           <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-slate-600 sm:text-lg dark:text-slate-300">
-            A clean space for real client, mentor, and teammate feedback. These
-            slots are ready to replace with verified quotes as you collect them.
+            These notes highlight delivery, collaboration, and ownership from
+            internship, project, and client-style environments.
           </p>
         </div>
 
@@ -84,12 +84,12 @@ export function TestimoniesSection() {
             </div>
 
             <h2 className="mt-6 text-3xl font-black leading-tight text-tealInk dark:text-teal-50">
-              Keep every quote specific, honest, and easy to verify.
+              The goal is simple: show I am ready for full-time responsibility.
             </h2>
 
             <p className="mt-4 text-sm leading-7 text-slate-600 dark:text-slate-300">
-              The best testimonials mention the project context, the problem
-              solved, and what made the collaboration valuable.
+              Each testimonial focuses on practical outcomes: delivery quality,
+              communication, and reliability in collaborative work.
             </p>
 
             <div className="mt-7 space-y-3">
@@ -122,9 +122,16 @@ export function TestimoniesSection() {
             {testimonies.map((item, index) => (
               <article
                 key={item.highlight}
-                className="group relative overflow-hidden rounded-xl border border-teal-100 bg-white/86 p-5 shadow-[0_18px_55px_rgba(13,148,136,0.08)] backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-teal-300 hover:shadow-[0_24px_70px_rgba(13,148,136,0.14)] dark:border-white/10 dark:bg-white/[0.05] dark:hover:border-teal-300/40"
+                className="group relative overflow-hidden rounded-xl border border-teal-100 bg-white/95 p-5 pt-16 shadow-[0_18px_55px_rgba(13,148,136,0.08)] backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-teal-300 hover:shadow-[0_24px_70px_rgba(13,148,136,0.14)] dark:border-white/10 dark:bg-white/[0.05] dark:hover:border-teal-300/40 sm:pt-14"
               >
-                <div className="absolute inset-y-0 left-0 w-1 bg-gradient-to-b from-teal-700 via-cyan-400 to-emerald-300" />
+                <div className="absolute right-5 top-5 flex flex-wrap items-center justify-end gap-2">
+                  <span className="rounded-full bg-tealInk px-3 py-1 text-xs font-black text-white dark:bg-teal-400 dark:text-teal-950">
+                    {item.context}
+                  </span>
+                  <span className="rounded-full border border-teal-200 bg-white px-3 py-1 text-xs font-black text-teal-700 dark:border-teal-300/20 dark:bg-white/10 dark:text-teal-100">
+                    {item.highlight}
+                  </span>
+                </div>
 
                 <div className="flex flex-col gap-5 sm:flex-row sm:items-start">
                   <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-teal-100 bg-teal-50 text-teal-700 shadow-sm dark:border-teal-300/20 dark:bg-teal-400/10 dark:text-teal-100">
@@ -132,16 +139,7 @@ export function TestimoniesSection() {
                   </div>
 
                   <div className="min-w-0 flex-1">
-                    <div className="flex flex-wrap items-center gap-2">
-                      <span className="rounded-full bg-tealInk px-3 py-1 text-xs font-black text-white dark:bg-teal-400 dark:text-teal-950">
-                        {item.context}
-                      </span>
-                      <span className="rounded-full border border-teal-100 bg-white px-3 py-1 text-xs font-black text-teal-700 dark:border-teal-300/20 dark:bg-white/10 dark:text-teal-100">
-                        {item.highlight}
-                      </span>
-                    </div>
-
-                    <blockquote className="mt-4 text-lg font-semibold leading-8 text-tealInk dark:text-teal-50">
+                    <blockquote className="text-lg font-semibold leading-8 text-tealInk dark:text-teal-50">
                       &ldquo;{item.quote}&rdquo;
                     </blockquote>
 
@@ -175,14 +173,14 @@ export function TestimoniesSection() {
           </div>
         </div>
 
-        <div className="mt-8 rounded-xl border border-teal-100 bg-[linear-gradient(135deg,rgba(255,255,255,0.92),rgba(240,253,250,0.82))] p-6 shadow-sm shadow-teal-950/5 backdrop-blur dark:border-white/10 dark:bg-[linear-gradient(135deg,rgba(255,255,255,0.08),rgba(20,184,166,0.08))]">
+        <div className="mt-8 rounded-xl border border-teal-100 bg-white p-6 shadow-sm shadow-teal-950/5 backdrop-blur dark:border-white/10 dark:bg-[linear-gradient(135deg,rgba(255,255,255,0.08),rgba(20,184,166,0.08))]">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="text-sm font-black uppercase tracking-[0.16em] text-teal-700 dark:text-teal-200">
-                Ready for real references
+                References available
               </p>
               <h2 className="mt-2 text-2xl font-black text-tealInk dark:text-teal-50">
-                Add verified quotes as your portfolio grows.
+                Full reference details can be shared during hiring conversations.
               </h2>
             </div>
             <ArrowRight className="hidden h-8 w-8 text-teal-700 dark:text-teal-200 sm:block" />

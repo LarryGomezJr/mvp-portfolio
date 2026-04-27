@@ -3,7 +3,7 @@ import { TestimoniesSection } from "@/components/testimonies-section";
 
 export default function TestimoniesPage() {
   return (
-    <main className="portfolio-grid-background min-h-screen overflow-x-hidden text-tealInk">
+    <main className="min-h-screen overflow-x-hidden bg-white text-tealInk">
       <FloatingNav />
       <TestimoniesSection />
     </main>
