@@ -27,22 +27,22 @@
   }
 
   .dark {
-    --background: 184 56% 7%;
-    --foreground: 175 70% 96%;
-    --card: 181 52% 10%;
-    --card-foreground: 175 70% 96%;
-    --popover: 181 52% 10%;
-    --popover-foreground: 175 70% 96%;
-    --primary: 174 84% 34%;
+    --background: 195 20% 4%;
+    --foreground: 180 15% 96%;
+    --card: 195 18% 6%;
+    --card-foreground: 180 15% 96%;
+    --popover: 195 18% 6%;
+    --popover-foreground: 180 15% 96%;
+    --primary: 174 84% 42%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 180 44% 13%;
-    --secondary-foreground: 175 70% 96%;
-    --muted: 181 40% 13%;
-    --muted-foreground: 177 22% 72%;
-    --accent: 174 52% 18%;
-    --accent-foreground: 175 70% 96%;
-    --border: 176 45% 20%;
-    --input: 176 45% 20%;
+    --secondary: 195 18% 10%;
+    --secondary-foreground: 180 15% 96%;
+    --muted: 195 14% 12%;
+    --muted-foreground: 184 12% 72%;
+    --accent: 177 63% 16%;
+    --accent-foreground: 180 15% 96%;
+    --border: 177 35% 22%;
+    --input: 177 35% 22%;
     --ring: 174 84% 46%;
   }
 
@@ -80,56 +80,62 @@
 }
 
 .dark .portfolio-grid-background {
-  background-color: #031b1d;
+  background-color: #050608;
   background-image:
-    linear-gradient(to right, rgba(94, 234, 212, 0.08) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(94, 234, 212, 0.08) 1px, transparent 1px),
-    radial-gradient(circle at top left, rgba(20, 184, 166, 0.2), transparent 62%),
-    radial-gradient(circle at top right, rgba(45, 212, 191, 0.18), transparent 62%),
-    radial-gradient(circle at bottom left, rgba(20, 184, 166, 0.16), transparent 62%),
-    radial-gradient(circle at bottom right, rgba(45, 212, 191, 0.18), transparent 62%);
+    linear-gradient(to right, rgba(45, 212, 191, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(45, 212, 191, 0.08) 1px, transparent 1px),
+    radial-gradient(circle at top left, rgba(20, 184, 166, 0.15), transparent 65%),
+    radial-gradient(circle at top right, rgba(13, 148, 136, 0.14), transparent 65%),
+    radial-gradient(circle at bottom left, rgba(20, 184, 166, 0.12), transparent 65%),
+    radial-gradient(circle at bottom right, rgba(13, 148, 136, 0.14), transparent 65%);
   background-position: center, center, top left, top right, bottom left, bottom right;
   background-repeat: repeat, repeat, no-repeat, no-repeat, no-repeat, no-repeat;
   background-size: 46px 46px, 46px 46px, 58% 58%, 58% 58%, 58% 58%, 58% 58%;
 }
 
 .dark .text-tealInk {
-  color: #ecfeff;
+  color: #e6fffb;
 }
 
 .dark .text-slate-600,
 .dark .text-slate-700 {
-  color: #b8c7c7;
+  color: #cbd5e1;
 }
 
 .dark .text-teal-700,
 .dark .text-teal-800,
 .dark .text-teal-900 {
-  color: #99f6e4;
+  color: #5eead4;
 }
 
 .dark .border-teal-100,
 .dark .border-teal-200 {
-  border-color: rgba(94, 234, 212, 0.2);
+  border-color: rgba(45, 212, 191, 0.28);
 }
 
 .dark .ring-teal-100 {
-  --tw-ring-color: rgba(94, 234, 212, 0.18);
+  --tw-ring-color: rgba(45, 212, 191, 0.3);
 }
 
+.dark .bg-white,
 .dark .bg-white\/60,
 .dark .bg-white\/70,
+.dark .bg-white\/75,
 .dark .bg-white\/78,
 .dark .bg-white\/80,
 .dark .bg-white\/82,
 .dark .bg-white\/84,
-.dark .bg-white\/90 {
-  background-color: rgba(4, 47, 46, 0.72);
+.dark .bg-white\/85,
+.dark .bg-white\/86,
+.dark .bg-white\/88,
+.dark .bg-white\/90,
+.dark .bg-white\/95 {
+  background-color: rgba(8, 12, 13, 0.92);
 }
 
 .dark .bg-teal-50,
 .dark .bg-slate-100 {
-  background-color: rgba(15, 118, 110, 0.2);
+  background-color: rgba(13, 148, 136, 0.2);
 }
 
 .marquee {

@@ -11,8 +11,13 @@ export const metadata: Metadata = {
 const themeInitializer = `
   (() => {
     try {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("portfolio-theme", "light");
+      const storedTheme = localStorage.getItem("portfolio-theme");
+      const isDark = storedTheme ? storedTheme === "dark" : true;
+      document.documentElement.classList.toggle("dark", isDark);
+
+      if (!storedTheme) {
+        localStorage.setItem("portfolio-theme", isDark ? "dark" : "light");
+      }
     } catch (_) {}
   })();
 `;
